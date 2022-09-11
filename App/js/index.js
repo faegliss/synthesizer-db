@@ -142,6 +142,16 @@ xui.Class('App', 'xui.Module',{
                 .setSrc("https://static.zerochan.net/Eleanor.Forte.full.3643926.jpg")
             );
             
+            append(
+                xui.create("xui.UI.Label")
+                .setHost(host,"xui_ui_label102")
+                .setLeft("9.904761904761905em")
+                .setTop("35.04761904761905em")
+                .setWidth("19.123809523809523em")
+                .setHeight("3.5047619047619047em")
+                .setCaption("Eleanor Forte was released in August of 2018 for the Synth V engine.")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
