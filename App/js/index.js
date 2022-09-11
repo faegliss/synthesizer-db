@@ -122,6 +122,26 @@ xui.Class('App', 'xui.Module',{
                 .setCaption("Koharu Rikka")
             );
             
+            append(
+                xui.create("xui.UI.Label")
+                .setHost(host,"xui_ui_label66")
+                .setLeft("1.5238095238095237em")
+                .setTop("32em")
+                .setWidth("18.36190476190476em")
+                .setHeight("6.552380952380952em")
+                .setCaption("Now, lets talk about these 3 voicebanks.")
+            );
+            
+            append(
+                xui.create("xui.UI.Image")
+                .setHost(host,"xui_ui_image45")
+                .setLeft("0.7619047619047619em")
+                .setTop("34.285714285714285em")
+                .setWidth("10.971428571428572em")
+                .setHeight("10.971428571428572em")
+                .setSrc("https://static.zerochan.net/Eleanor.Forte.full.3643926.jpg")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
